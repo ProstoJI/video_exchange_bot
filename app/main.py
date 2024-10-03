@@ -11,7 +11,7 @@ bot = Bot(token=BOT_TOKEN)
 
 async def main():
     dp.include_router(router)
-    # await bot.send_message(7415017515, "А так бан, долбоёб")
+    # await bot.send_message(7415017515, "...")
     await dp.start_polling(bot)
 
 
